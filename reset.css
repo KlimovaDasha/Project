@@ -1,0 +1,73 @@
+h1, h2, h3, h4, h5, h6, h7, h8, h9, h10, h11, h12, h13, h14, h15, h16, p, ul,ol, .qoute, div, img, hr { width: 700px; margin: 0 auto;
+}
+
+h1 {
+  margin-bottom: 0;
+  font-size: 30px;
+  color: #000;
+  font-weight: 300;
+}
+
+h2, h4, h5, h6, h7, h10, h13, h14, h15  {
+  margin-bottom: 0;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+h3, h8, h9, h11, h12 {
+  margin-bottom: 0px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+h16 {
+  font-size: 14px;
+}
+
+.quote {
+  text-align: center;
+}
+
+.quote_text {
+  margin: 0.7em 0 0.7em 5%;
+  padding: 0.7em 2% 0.7em 4%;
+  background: #f8f9fa;
+  overflow:hidden
+}
+
+nav{
+background: #F9F9F9;
+width: 300px;
+position: fixed;
+top: 20px;
+left: 10px;
+padding: 10px;
+box-sizing: border-box;
+opacity: .1;
+transition: all .5s ease;
+}
+nav:hover {
+opacity: 1;
+transition: all .1s ease;
+}
+
+nav p{
+margin: 0;
+font-weight: bold;
+font-size: 14px!important;
+}
+
+nav a{
+text-decoration: none;
+font-size: 12px!important;
+}
+
+nav ul{
+list-style-type: none;
+width: 100%;
+}
+
+nav li{
+margin: 0 px 0;
+line-height: 20px;
+}
